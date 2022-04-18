@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	overflow: hidden;
+	background: #18233e;
+}
+
+.wrapper{
+	width: 100vw;
+	height: 100vh;
+	background-color: #18233e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Home Page Bird Section*/
+.bird{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	margin-left: -4%;
+}
+
+.hair-container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	animation: rotateHair 3s infinite ease-in-out;
+}
+
+.hair{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	background-color: #A12A15;
+	border-radius: 0 125px 125px 0;
+}
+
+.face{
+	position: absolute;
+	width: 70%;
+	height: 70%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.white-container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	animation: rotateWhite 3s infinite ease-in-out;
+}
+
+.white{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	border-radius: 0 87.5px 87.5px 0;
+	background-color: white;
+}
+
+.shadow-container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	animation: rotateShadow 3s infinite ease-in-out;
+}
+
+.shadow{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 50%;
+	left: 50%;
+	background-color: rgba(0, 0, 0, 0.15);
+	border-radius: 0 0 87.5px 0;
+}
+
+.bigBeak-container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	animation: rotBigBeak 3s infinite ease-in-out;
+}
+
+.bigBeak{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 0;
+	left: 0;
+	background-color: #f7ce42;
+	border-radius: 87.5px 0 0 0;
+}
+
+.smallBeak-container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	animation: rotSmallBeak 3s infinite ease-in-out;
+}
+
+.smallBeak{
+	position: absolute;
+	width: 25%;
+	height: 25%;
+	top: 50%;
+	left: 25%;
+	background-color: #f7a500;
+	border-radius: 0 0 0 43.25px;
+}
+
+.eye{
+	position: absolute;
+	width: 25%;
+	height: 25%;
+	bottom: 51%;
+	left: 51%;
+	background-color: #18233e;
+	border-radius: 50%;
+	z-index: 2;
+	animation: moveEye 3s infinite ease-in-out;
+}
+
+/*Home Page Text Section*/
+.home-text-section {
+	margin-left: 2%;
+}
+
+#home-text-start-button {
+	border: solid wheat 2px;
+	background: transparent;
+	border-radius: 5px;
+	margin-top: 5px;
+	width: 200px;
+	font-weight: bold;
+	height: 30px;
+	align-content: center;
+	text-align: center;
+	color: wheat;
+}
+
+#home-text-start-button:hover {
+	cursor: grab;
+	background: #f7a500;
+	color: #A12A15;
+	border-color: #A12A15;
+}
+
+#home-text {
+	width: 300px;
+	color: wheat;
+	margin-bottom: 5px;
+}
+
+#home-text-title {
+	color: #f7a500;
+}
+
+/*Home Page Footer*/
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 25px;
+	width: 100%;
+	color: wheat;
+	text-align: center;
+}
+
+/*Rules Page*/
+.buttons button.quit{
+	color: #fff;
+	background: #18233e;
+}
+
+.buttons button.quit:hover{
+	color: #84c5fe;
+	background: #18233e;
+}
+
+.buttons button.restart{
+	color: #fff;
+	background: #18233e;
+}
+
+.buttons button.restart:hover{
+	color: #84c5fe;
+	background: #18233e;
+}
+
+
+/*Keyframes*/
+@keyframes rotateHair{
+	0%{
+		transform: rotate(-360deg);
+	}
+	15%{
+		transform: rotate(-360deg);
+	}
+	35%{
+		transform: rotate(-180deg);
+	}
+	65%{
+		transform: rotate(-180deg);
+	}
+	85%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes rotateWhite{
+	0%{
+		transform: rotate(0deg);
+	}
+	15%{
+		transform: rotate(0deg);
+	}
+	35%{
+		transform: rotate(-180deg);
+	}
+	65%{
+		transform: rotate(-180deg);
+	}
+	85%{
+		transform: rotate(-360deg);
+	}
+	100%{
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes rotateShadow{
+	15%{
+		transform: rotate(0deg);
+	}
+	35%{
+		transform: rotate(90deg);
+	}
+	65%{
+		transform: rotate(90deg);
+	}
+	85%{
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes rotBigBeak{
+	15%{
+		transform: rotate(0deg);
+	}
+	35%{
+		transform: rotate(90deg);
+	}
+	65%{
+		transform: rotate(90deg);
+	}
+	85%{
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes rotSmallBeak{
+	15%{
+		transform: rotate(0deg);
+	}
+	35%{
+		transform: rotate(-90deg);
+	}
+	65%{
+		transform: rotate(-90deg);
+	}
+	85%{
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes moveEye{
+	15%{
+		left: 51%;
+		transform: translate(0px);
+	}
+	35%{
+		left: 49%;
+		transform: translate(-100%);
+	}
+    65%{
+		left: 49%;
+		transform: translate(-100%);
+	}
+	85%{
+		left: 51%;
+		transform: translate(0px);
+	}
+}
