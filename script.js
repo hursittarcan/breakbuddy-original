@@ -78,7 +78,7 @@ function showQuetions(index){
     let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
     let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'
         + '<div class="option"><span>'+ questions[index].options[1] +'</span></div>'
-        + '<div class="option"><span>'+ questions[index].options[2] +'</span></div>'
+        //+ '<div class="option"><span>'+ questions[index].options[2] +'</span></div>'
         //+ '<div class="option"><span>'+ questions[index].options[3] +'</span></div>';
     que_text.innerHTML = que_tag; //adding new span tag inside que_tag
     option_list.innerHTML = option_tag; //adding new div tag inside option_tag
@@ -86,36 +86,36 @@ function showQuetions(index){
     const option = option_list.querySelectorAll(".option");
 
     // set onclick attribute to all available options
-    for(i=0; i < option.length; i++){
+    for(let i=0; i < option.length; i++){
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
-// creating the new div tags which for icons
+
+
+//Option Selected - Quiz Window
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 
-//if user clicked on option
 function optionSelected(answer){
     let userAns = answer.textContent; //getting user selected option
     const allOptions = option_list.children.length; //getting all option items
 
-    //localStorage.setItem(key, textareaElement.value)
     let key = "answer_" + questions[que_count].numb;
     localStorage.setItem(key, userAns);
-    answer.classList.add("correct");
+    //answer.classList.add("correct");
     answer.setAttribute("class", "option correct");
     answer.insertAdjacentHTML("beforeend", tickIconTag);
 
     for(let i = 0; i < allOptions; i++){
-        option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
+        option_list.children[i].classList.add("disabled");
     }
-    next_btn.classList.add("show"); //show the next button if user selected any option
+    next_btn.classList.add("show");
 }
 
+//Results Window
 function showResult(){
     info_box.classList.remove("activeInfo"); //hide info box
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
-    const scoreText = result_box.querySelector(".score_text");
 }
 
 //Question Counter - Footer Quiz Window
