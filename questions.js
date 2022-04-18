@@ -2,70 +2,42 @@
 let questions = [
     {
         numb: 1,
-        question: "Warm or cold?",
-        answer: "Hyper Text Markup Language",
+        question: "Mountains or beach?",
         options: [
-            "Warm",
-            "Cold",
-            "Both"
+            "Mountains",
+            "Beach"
         ]
     },
     {
         numb: 2,
-        question: "What does CSS stand for?",
-        answer: "Cascading Style Sheet",
+        question: "Tropical or city?",
         options: [
-            "Common Style Sheet",
-            "Colorful Style Sheet",
-            "Computer Style Sheet",
-            "Cascading Style Sheet"
+            "Tropical",
+            "City"
         ]
     },
     {
         numb: 3,
-        question: "What does PHP stand for?",
-        answer: "Hypertext Preprocessor",
+        question: "Europe, South America?",
         options: [
-            "Hypertext Preprocessor",
-            "Hypertext Programming",
-            "Hypertext Preprogramming",
-            "Hometext Preprocessor"
+            "Europe",
+            "South America"
         ]
     },
     {
         numb: 4,
-        question: "What does SQL stand for?",
-        answer: "Structured Query Language",
+        question: "Museums or food tours?",
         options: [
-            "Stylish Question Language",
-            "Stylesheet Query Language",
-            "Statement Question Language",
-            "Structured Query Language"
+            "Tropical",
+            "City"
         ]
     },
     {
         numb: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        question: "Relax or adventure?",
         options: [
-            "eXtensible Markup Language",
-            "eXecutable Multiple Language",
-            "eXTra Multi-Program Language",
-            "eXamine Multiple Language"
+            "Relax",
+            "Adventure"
         ]
     },
-    // you can uncomment the below codes and make duplicate as more as you want to add question
-    // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-    //   {
-    //   numb: 6,
-    //   question: "Your Question is Here",
-    //   answer: "Correct answer of the question is here",
-    //   options: [
-    //     "Option 1",
-    //     "option 2",
-    //     "option 3",
-    //     "option 4"
-    //   ]
-    // },
 ];
