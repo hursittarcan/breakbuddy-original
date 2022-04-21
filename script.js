@@ -1,4 +1,3 @@
-//selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
 const home_screen = document.querySelector(".start_btn");
 const info_box = document.querySelector(".info_box");
@@ -9,25 +8,21 @@ const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
 const country_advise_text = document.getElementById("country-advise-text");
 
-//Start button on the homepage.
 start_btn.onclick = ()=>{
-    //quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuetions(0);
     info_box.classList.add("activeInfo");
     home_screen.style.visibility='hidden';
 }
 
-// if exitQuiz button clicked
 exit_btn.onclick = ()=>{
-    info_box.classList.remove("activeInfo"); //hide info box
+    info_box.classList.remove("activeInfo");
     home_screen.style.visibility='visible';
 }
 
-// if continueQuiz button clicked
 continue_btn.onclick = ()=>{
-    info_box.classList.remove("activeInfo"); //hide info box
-    quiz_box.classList.add("activeQuiz"); //show quiz box
-    showQuetions(0); //calling showQestions function
+    info_box.classList.remove("activeInfo");
+    quiz_box.classList.add("activeQuiz");
+    showQuetions(0);
 }
 
 let que_count = 0;
@@ -36,40 +31,36 @@ let que_numb = 1;
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
 
-// if restartQuiz button clicked
 restart_quiz.onclick = ()=>{
-    quiz_box.classList.add("activeQuiz"); //show quiz box
-    result_box.classList.remove("activeResult"); //hide result box
+    quiz_box.classList.add("activeQuiz");
+    result_box.classList.remove("activeResult");
     que_count = 0;
     que_numb = 1;
-    showQuetions(que_count); //calling showQestions function
-    questionCounter(que_numb); //passing que_numb value to questionCounter
-    next_btn.classList.remove("show"); //hide the next button
+    showQuetions(que_count);
+    questionCounter(que_numb);
+    next_btn.classList.remove("show");
 }
 
-// if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
-    window.location.reload(); //reload the current window
+    window.location.reload();
 }
 
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 bottom_ques_counter.innerHTML = '<span><p>'+ 1 +'</p> of <p>'+ questions.length +'</p> Questions</span>';
 
-// if Next button clicked
 next_btn.onclick = ()=>{
-    if(que_count < questions.length - 1){ //if question count is less than total question length
-        que_count++; //increment the que_count value
-        que_numb++; //increment the que_numb value
-        showQuetions(que_count); //calling showQestions function
-        questionCounter(que_numb); //passing que_numb value to questionCounter
-        next_btn.classList.remove("show"); //hide the next button
+    if(que_count < questions.length - 1){
+        que_count++;
+        que_numb++;
+        showQuetions(que_count);
+        questionCounter(que_numb);
+        next_btn.classList.remove("show");
     }else{
-        showResult(); //calling showResult function
+        showResult();
     }
 }
 
-// getting questions and options from array
 function showQuetions(index){
     const que_text = document.querySelector(".que_text");
 
@@ -86,16 +77,14 @@ function showQuetions(index){
     }
 }
 
-//Option Selected - Quiz Window
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 
 function optionSelected(answer){
-    let userAns = answer.textContent; //getting user selected option
-    const allOptions = option_list.children.length; //getting all option items
+    let userAns = answer.textContent;
+    const allOptions = option_list.children.length;
 
     let key = "answer_" + questions[que_count].numb;
     localStorage.setItem(key, userAns);
-    //answer.classList.add("correct");
     answer.setAttribute("class", "option correct");
     answer.insertAdjacentHTML("beforeend", tickIconTag);
 
@@ -105,30 +94,20 @@ function optionSelected(answer){
     next_btn.classList.add("show");
 }
 
-//Results Window
 function showResult(){
-    info_box.classList.remove("activeInfo"); //hide info box
-    quiz_box.classList.remove("activeQuiz"); //hide quiz box
-    result_box.classList.add("activeResult"); //show result box
+    info_box.classList.remove("activeInfo");
+    quiz_box.classList.remove("activeQuiz");
+    result_box.classList.add("activeResult");
     adviceLocation();
 }
 
-//Question Counter - Footer Quiz Window
 function questionCounter(index){
     let questionNumber = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = questionNumber;
 }
 
-let countryOne = {name: "Turkey", continent: "Europe", mood: "Adventure"};
-let countryTwo = {name: "Belgium", continent: "Europe", mood: "Relax"};
-let countryThree = {name: "Brazil", continent: "South America", mood: "Adventure"};
-let countryFour = {name: "Italy", continent: "Europe", mood: "Adventure"};
-
 let countries = [];
-countries.push(countryOne);
-countries.push(countryTwo);
-countries.push(countryThree);
-countries.push(countryFour);
+initializeEuropeanCountries();
 
 function random_item(items)
 {
@@ -143,10 +122,27 @@ function adviceLocation() {
     let answer5 = localStorage.getItem("answer_5");
 
     let possibleCountries = countries
-        .filter(country => String(country.continent) === answer3)
-        .filter(country => String(country.mood) === answer5);
-    //console.log(possibleCountries);
+        .filter(country => String(country.climate) === answer1)
+        .filter(country => String(country.continent) === answer2)
+        .filter(country => String(country.geo) === answer3)
+        .filter(country => String(country.mood) === answer4)
+        .filter(country => String(country.tours) === answer5);
 
     let randomCountry = random_item(possibleCountries);
     country_advise_text.innerHTML = randomCountry.name;
+}
+
+function initializeEuropeanCountries() {
+    countries.push(
+        {name: "Turkey", climate: "Warm", continent: "Eurasia", geo: "City", mood: "Relax", tours: "Food"},
+        {name: "Belgium", climate: "Cold", continent: "Eurasia", geo: "City", mood: "Relax", tours: "Museum"},
+        {name: "Italy", climate: "Warm", continent: "Eurasia", geo: "City", mood: "Relax", tours: "Food"},
+        {name: "Spain", climate: "Warm", continent: "Eurasia", geo: "City", mood: "Relax", tours: "Food"},
+        {name: "Portugal", climate: "Warm", continent: "Eurasia", geo: "City", mood: "Relax", tours: "Food"},
+        {name: "France", climate: "Warm", continent: "Eurasia", geo: "City", mood: "Relax", tours: "Museum"},
+        {name: "The Netherlands", climate: "Cold", continent: "Eurasia", geo: "City", mood: "Relax", tours: "Museum"},
+        {name: "United Kingdom", climate: "Cold", continent: "Eurasia", geo: "City", mood: "Relax", tours: "Food"},
+        {name: "Ireland", climate: "Cold", continent: "Eurasia", geo: "Nature", mood: "Relax", tours: "Museum"},
+
+    );
 }

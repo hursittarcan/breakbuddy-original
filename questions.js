@@ -2,42 +2,42 @@
 let questions = [
     {
         numb: 1,
-        question: "Mountains or beach?",
+        question: "Warm or cold climate?",
         options: [
-            "Mountains",
-            "Beach"
+            "Warm",
+            "Cold"
         ]
     },
     {
         numb: 2,
-        question: "Tropical or city?",
+        question: "Eurasia or America's?",
         options: [
-            "Tropical",
-            "City"
+            "Eurasia",
+            "America's"
         ]
     },
     {
         numb: 3,
-        question: "Europe, South America?",
+        question: "Nature or city?",
         options: [
-            "Europe",
-            "South America"
-        ]
-    },
-    {
-        numb: 4,
-        question: "Museums or food tours?",
-        options: [
-            "Tropical",
+            "Nature",
             "City"
         ]
     },
     {
-        numb: 5,
-        question: "Relax or adventure?",
+        numb: 4,
+        question: "Relax or experience?",
         options: [
             "Relax",
-            "Adventure"
+            "Experience"
+        ]
+    },
+    {
+        numb: 5,
+        question: "Food tours or museum tours?",
+        options: [
+            "Food",
+            "Museum"
         ]
     },
 ];
