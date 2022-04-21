@@ -7,6 +7,7 @@ const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
+const country_advise_text = document.getElementById("country-advise-text");
 
 //Start button on the homepage.
 start_btn.onclick = ()=>{
@@ -121,11 +122,13 @@ function questionCounter(index){
 let countryOne = {name: "Turkey", continent: "Europe", mood: "Adventure"};
 let countryTwo = {name: "Belgium", continent: "Europe", mood: "Relax"};
 let countryThree = {name: "Brazil", continent: "South America", mood: "Adventure"};
+let countryFour = {name: "Italy", continent: "Europe", mood: "Adventure"};
 
 let countries = [];
 countries.push(countryOne);
 countries.push(countryTwo);
 countries.push(countryThree);
+countries.push(countryFour);
 
 function random_item(items)
 {
@@ -142,10 +145,8 @@ function adviceLocation() {
     let possibleCountries = countries
         .filter(country => String(country.continent) === answer3)
         .filter(country => String(country.mood) === answer5);
-    console.log(possibleCountries);
+    //console.log(possibleCountries);
 
-    //localStorage.setItem(possibleCountries[0].name)
     let randomCountry = random_item(possibleCountries);
-    //console.log(randomCountry.name);
-    alert(JSON.stringify(randomCountry.name));
+    country_advise_text.innerHTML = randomCountry.name;
 }
