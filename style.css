@@ -87,6 +87,10 @@ body{
 	animation: rotateShadow 3s infinite ease-in-out;
 }
 
+#country-advise-text {
+	font-weight: bold;
+}
+
 .shadow{
 	position: absolute;
 	width: 50%;
