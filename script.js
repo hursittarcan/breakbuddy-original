@@ -131,4 +131,3 @@ function adviceLocation() {
     let randomCountry = random_item(possibleCountries);
     country_advise_text.innerHTML = randomCountry.name;
 }
-
