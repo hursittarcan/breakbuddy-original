@@ -108,6 +108,7 @@ function questionCounter(index){
 
 let countries = [];
 initializeEuropeanCountries();
+initializeAsianCountries();
 
 function random_item(items)
 {
