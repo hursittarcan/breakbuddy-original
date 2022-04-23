@@ -67,6 +67,15 @@ function showQuetions(index){
     let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
     let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'
         + '<div class="option"><span>'+ questions[index].options[1] +'</span></div>'
+
+    //Voor 3 opties - Repeat voor 4 opties.
+    if (questions[index].options[2] != null) {
+        option_tag += '<div class="option"><span>'+ questions[index].options[2] +'</span></div>'
+    }
+    if (questions[index].options[3] != null) {
+        option_tag += '<div class="option"><span>'+ questions[index].options[3] +'</span></div>'
+    }
+
     que_text.innerHTML = que_tag;
     option_list.innerHTML = option_tag;
 

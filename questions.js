@@ -11,8 +11,10 @@ let questions = [
         numb: 2,
         question: "Eurasia or America's?",
         options: [
-            "Eurasia",
-            "America's"
+            "Europa",
+            "Asia",
+            "America",
+            "Africa"
         ]
     },
     {
