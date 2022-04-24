@@ -140,14 +140,14 @@ function adviceLocation() {
         .filter(country => String(country.tours) === answer5);
 
     let randomCountry = random_item(possibleCountries);
+
+    country_flag.src = setCountryFlag(randomCountry);
     country_advise_text.innerHTML = randomCountry.name;
 }
 
-function setCountryFlag() {
+function setCountryFlag(country) {
     let prefix = "./flags/"
-    let name = "turkey";
+    let name = country.name.toLowerCase();
     let extension = ".png";
-    country_flag.src = prefix + name + extension;
+    return prefix + name + extension;
 }
-
-setCountryFlag();
