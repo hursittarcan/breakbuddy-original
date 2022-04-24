@@ -7,6 +7,7 @@ const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
 const country_advise_text = document.getElementById("country-advise-text");
+const country_flag = document.getElementById("country-flag");
 
 start_btn.onclick = ()=>{
     showQuetions(0);
@@ -141,3 +142,12 @@ function adviceLocation() {
     let randomCountry = random_item(possibleCountries);
     country_advise_text.innerHTML = randomCountry.name;
 }
+
+function setCountryFlag() {
+    let prefix = "./flags/"
+    let name = "turkey";
+    let extension = ".png";
+    country_flag.src = prefix + name + extension;
+}
+
+setCountryFlag();
