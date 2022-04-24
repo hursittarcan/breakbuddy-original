@@ -45,13 +45,13 @@ function initializeEuropeanCountries() {
         {name: "San Marino", climate: "Warm", continent: "Europe", geo: "City", mood: "Relax", tours: "Food"},
         {name: "Monaco", climate: "Warm", continent: "Europe", geo: "City", mood: "Relax", tours: "Food"},
         {name: "Vatican City", climate: "Warm", continent: "Europe", geo: "City", mood: "Relax", tours: "Museum"},
-        {name: "Cyprus", climate: "Cold", continent: "Asia", geo: "Nature", mood: "Experience", tours: "Food"},
+        {name: "Cyprus", climate: "Warm", continent: "Europe", geo: "Nature", mood: "Experience", tours: "Food"},
     );
 }
 
 function initializeAsianCountries() {
     countries.push(
-        {name: "China", climate: "Warm", continent: "Eurasia", geo: "Nature", mood: "Experience", tours: "Food"},
+        {name: "China", climate: "Warm", continent: "Asia", geo: "Nature", mood: "Experience", tours: "Food"},
         {name: "India", climate: "Warm", continent: "Eurasia", geo: "City", mood: "Experience", tours: "Food"},
         {name: "Kazakhstan", climate: "Cold", continent: "Eurasia", geo: "Nature", mood: "Relax", tours: "Food"},
         {name: "Saudi Arabia", climate: "Warm", continent: "Eurasia", geo: "City", mood: "Relax", tours: "Food"},
