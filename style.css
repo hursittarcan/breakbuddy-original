@@ -563,6 +563,10 @@ footer button.show{
 	transition: all 0.3s ease;
 }
 
+#country-flag {
+	margin-bottom: -35px;
+}
+
 /*Keyframes*/
 @keyframes rotateHair{
 	0%{
