@@ -66,6 +66,6 @@ function initializeAsianCountries() {
         {name: "Turkmenistan", climate: "Cold", continent: "Eurasia", geo: "Nature", mood: "Experience", tours: "Food"},
         {name: "Uzbekistan", climate: "Cold", continent: "Eurasia", geo: "Nature", mood: "Experience", tours: "Food"},
         {name: "Iraq", climate: "Warm", continent: "Eurasia", geo: "City", mood: "Experience", tours: "Food"},
-        {name: "Japan", climate: "Cold", continent: "Eurasia", geo: "Nature", mood: "Experience", tours: "Food"}
+        {name: "Japan", climate: "Cold", continent: "Asia", geo: "Nature", mood: "Experience", tours: "Food"}
     );
 }
