@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
     res.send('hello world')
 })
 
+app.get('/hursit', (req, res) => {
+    res.send('hursit')
+})
+
 server.listen(port, hostname, () => {
     console.log("Server running at http://0.0.0.0:3000/");
 });
