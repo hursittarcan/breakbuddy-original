@@ -125,6 +125,8 @@ function random_item(items)
     return items[Math.floor(Math.random()*items.length)];
 }
 
+//test
+
 function adviceLocation() {
     let answer1 = localStorage.getItem("answer_1");
     let answer2 = localStorage.getItem("answer_2");
