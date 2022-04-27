@@ -10,12 +10,8 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/plain');
 });
 
-app.get('/', (req, res) => {
+server.get('/', (req, res) => {
     res.send('hello world')
-})
-
-app.get('/hursit', (req, res) => {
-    res.send('hursit')
 })
 
 server.listen(port, hostname, () => {
