@@ -14,7 +14,7 @@ This is the repo for the [breakbuddy](https://breakbuddy.be) website. BreakBuddy
 ## Table of contents
 
 - [How to contribute as a developer](#how-to-contribute-as-a-developer) :computer:
-- [How to contribute as a translator](#how-to-contribute-as-a-translator) :pencil:
+- [How to contribute as a translator](#how-to-contribute-as-a-translator-:pencil:) :pencil:
 
 ## How to contribute as a developer
 
