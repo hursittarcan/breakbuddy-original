@@ -1,4 +1,4 @@
-<div align="center" style="margin-top: 1em; margin-bottom: 3em;">
+<div align="center" style="margin-top: 1em; margin-bottom: 3em;" background="white">
   <a href="https://ethereum.org"><img alt="BreakBuddy logo" src="./logo.png" alt="ethereum.org" width="200"></a>
   <h1>👋 Welcome to BreakBuddy!</h1>
 </div>
