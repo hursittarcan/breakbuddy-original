@@ -13,10 +13,10 @@ This is the repo for the [breakbuddy](https://breakbuddy.be) website. BreakBuddy
 
 ## Table of contents
 
-- [How to contribute - Developers](#how-to-contribute-Developers)
+- [How to contribute (Developers)](#how-to-contribute-(Developers))
 - [How to contribute as a translator](#how-to-contribute-Translators)
 
-## How to contribute Developers
+## How to contribute (Developers)
 
 This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! <3
 
