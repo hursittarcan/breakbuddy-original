@@ -23,14 +23,6 @@ This project follows the [all-contributors](https://allcontributors.org/docs/en/
 
 - If you're not sure how, here's how to [fork a repo](https://help.github.com/en/articles/fork-a-repo).
 
-### 3. Set up your local environment (optional)
-
-If you're ready to contribute and create your PR, it will help to set up a local environment so you can see your changes.
-
-1. [Set up your development environment](https://www.gatsbyjs.com/docs/tutorial/part-zero/)
-
-2. Clone your fork
-
 If this is your first time forking our repo, this is all you need to do for this step:
 
 ```sh
@@ -51,7 +43,7 @@ $ git checkout main
 $ git fetch upstream
 $ git merge upstream/main
 ```
-### 4. Make awesome changes!
+### 3. Make awesome changes!
 
 1. Create new branch for your changes
 
@@ -65,8 +57,6 @@ $ git checkout -b new_branch_name
 $ Add features, fix bugs, etc... 
 ```
 
-- Open this directory in your favorite text editor / IDE, and see your changes live.
-
 3. Commit and prepare for pull request (PR). In your PR commit message, reference the issue it resolves (see [how to link a commit message to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)).
 
 ```sh
@@ -79,14 +69,14 @@ $ git commit -m "brief description of changes [Fixes #1234]"
 $ git push origin
 ```
 
-### 5. Submit your PR
+### 4. Submit your PR
 
 - After your changes are committed to your GitHub fork, submit a pull request (PR) to the `main` branch of the `HursitTarcan/BreakBuddy` repo
 - In your PR description, reference the issue it resolves (see [linking a pull request to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword))
   - ex. `Updates out of date content [Fixes #1234]`
 - _Confirm your preview deploy looks & functions as expected_
 
-### 6. Wait for review
+### 5. Wait for a review
 
-- The website team reviews every PR
+- Our team will review your PR
 - Acceptable PRs will be approved & merged into the `main` branch
