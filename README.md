@@ -13,7 +13,7 @@ This is the repo for the [breakbuddy](https://breakbuddy.be) website. BreakBuddy
 
 ## Table of contents
 
-- [How to contribute](#how-to-contribute)
+- [How to contribute - Developers](#how-to-contribute-Developers)
 - [How to contribute as a translator](#how-to-contribute-Translators)
 
 ## How to contribute Developers
