@@ -1,19 +1,22 @@
 <div align="center" style="margin-top: 1em; margin-bottom: 3em;">
   <a href="https://ethereum.org"><img alt="BreakBuddy logo" src="./docs/logo.png" alt="ethereum.org" width="200"></a>
-  <h1>👋 Welcome to BreakBuddy!</h1>
+  <h1>Welcome to BreakBuddy!</h1>
 </div>
 
-This is the repo for the [breakbuddy](https://breakbuddy.be) website. BreakBuddy is an initiative to help users choose their next holiday destination in an easy and enjoyable way. Our website provides a fun and easy-to-use interface for users all around to world. Our buddy will simply ask users a few questions and then recommend the best possible holiday destination that we have in our database. BreakBuddy is a non-profit organisation and completely open-source. 
+This is the repo for the [breakbuddy](https://breakbuddy.be) website. BreakBuddy is an initiative to help users choose their next holiday destination in an easy and enjoyable way. Our website provides a fun and easy-to-use interface for users all around to world. Our buddy :bird: will simply ask users a few questions and then recommend the best possible holiday destination that we have in our database. BreakBuddy is a non-profit organisation and our code is completely open-source :heart:.
 
-Copyright Ⓒ 2022 Hursit Tarcan ®
+<div align="center" style="margin-top: 1em; margin-bottom: 3em;">
+  Copyright Ⓒ 2022 - Hursit Tarcan ®
+</div>
 
 <hr style="margin-top: 3em; margin-bottom: 3em;">
 
 ## Table of contents
 
-- [How to contribute](#how-to-contribute)
+- [How to contribute - Developers](#how-to-contribute - Developers)
+- [How to contribute - Translators](#how-to-contribute - Translators)
 
-## How to contribute
+## How to contribute - Developers
 
 This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! <3
 
@@ -83,3 +86,22 @@ $ git push origin
 
 - Our team will review your PR
 - Acceptable PRs will be approved & merged into the `main` branch
+
+
+
+
+
+## How to contribute - Translators
+
+This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! <3
+
+### 1. Submit an issue
+
+- Create a [new issue](https://github.com/HUrsitTarcan/BreakBuddy/issues/new/choose).
+- Comment on the issue (if you'd like to be assigned to it) - that way our team can assign the issue to you.
+
+### 2. Fork the repository (repo)
+
+- If you're not sure how, here's how to [fork a repo](https://help.github.com/en/articles/fork-a-repo).
+
+If this is your first time forking our repo, this is all you need to do for this step:
