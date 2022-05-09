@@ -16,6 +16,7 @@ This is the repo for the [breakbuddy](https://breakbuddy.be) website. BreakBuddy
 - [How to contribute as a developer](#how-to-contribute-as-a-developer) :computer:
 - [How to contribute as a translator](#how-to-contribute-as-a-translator) :pencil:
 - [How to contribute to content](#how-to-contribute-to-content) :bulb:
+- [Give us feedback](#Give-us-feedback) :question:
 
 ## How to contribute as a developer
 
@@ -133,3 +134,23 @@ This part of the readme.md is dedicated to content contributions 💡.
 
 - Our team will review your content change. 
 - Acceptable content changes will be approved & merged into the main branch. 
+
+
+
+## Give us feedback
+
+This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! :heart:
+
+This part of the readme.md is dedicated to feedback contributions ❓.
+
+### 1. Submit an issue or send us a DM via Discord
+
+- Create a [new issue](https://github.com/HUrsitTarcan/BreakBuddy/issues/new/choose), specify your feedback.
+- Anyone can create a new issue (code contributions are not needed for this). 
+- Our team will contact you via the issue. 
+
+### 2. Wait for a review
+
+- Feedback is greatly appreciated. 
+- Acceptable changes will be approved & merged into the main branch. 
+- Thank you for your feedback :heart:.
