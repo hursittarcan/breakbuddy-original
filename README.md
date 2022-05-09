@@ -1,5 +1,6 @@
 <div align="center" style="margin-top: 1em; margin-bottom: 3em;">
   <h1>👋 Welcome to BreakBuddy!</h1>
+  <a href="https://ethereum.org"><img alt="BreakBuddy logo" src="./BreakBuddy Logo.jpg" alt="ethereum.org" width="125"></a>
 </div>
 
 This is the repo for the [breakbuddy.be](https://google.com) website. The purpose of BreakBuddy is to advise a holiday destination to users all over the world (completely free and open-source). 
