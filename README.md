@@ -14,11 +14,12 @@ This is the repo for the [breakbuddy](https://breakbuddy.be) website. BreakBuddy
 ## Table of contents
 
 - [How to contribute as a developer](#how-to-contribute-as-a-developer) :computer:
-- [How to contribute as a translator](#how-to-contribute-as-a-translator-:pencil:) :pencil:
+- [How to contribute as a translator](#how-to-contribute-as-a-translator) :pencil:
 
 ## How to contribute as a developer
 
-This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! <3
+This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! :heart:
+This part of the readme.md is dedicated to code contributions 💻.
 
 ### 1. Submit an issue
 
@@ -91,9 +92,10 @@ $ git push origin
 
 
 
-## How to contribute as a translator :pencil:
+## How to contribute as a translator
 
-This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! <3
+This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! :heart:
+This part of the readme.md is dedicated to translation contributions :pencil:.
 
 ### 1. Submit an issue
 
