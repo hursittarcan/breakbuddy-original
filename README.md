@@ -3,7 +3,9 @@
   <h1>👋 Welcome to BreakBuddy!</h1>
 </div>
 
-This is the repo for the [breakbuddy.be](https://google.com) website. The purpose of BreakBuddy is to advise a holiday destination to users all over the world (completely free and open-source). 
+This is the repo for the [breakbuddy](https://breakbuddy.be) website. BreakBuddy is an initiative to help users choose their next holiday destination in an easy and enjoyable way. Our website provides a fun and easy-to-use interface for users all around to world. Our buddy will simply ask users a few questions and then recommend the best possible holiday destination that we have in our database. BreakBuddy is a non-profit organisation and completely open-source. 
+
+Copyright Ⓒ 2022 Hursit Tarcan ®
 
 <hr style="margin-top: 3em; margin-bottom: 3em;">
 
