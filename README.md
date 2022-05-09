@@ -13,10 +13,10 @@ This is the repo for the [breakbuddy](https://breakbuddy.be) website. BreakBuddy
 
 ## Table of contents
 
-- [How to contribute (Developers)](#how-to-contribute-(Developers))
-- [How to contribute as a translator](#how-to-contribute-Translators)
+- [How to contribute as a developer](#how-to-contribute-as-a-developer)
+- [How to contribute as a translator](#how-to-contribute-as-a-translator)
 
-## How to contribute (Developers)
+## How to contribute as a developer
 
 This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! <3
 
@@ -91,7 +91,7 @@ $ git push origin
 
 
 
-## How to contribute - Translators
+## How to contribute as a translator
 
 This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! <3
 
