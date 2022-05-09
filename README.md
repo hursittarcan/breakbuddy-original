@@ -78,3 +78,15 @@ $ git commit -m "brief description of changes [Fixes #1234]"
 ```sh
 $ git push origin
 ```
+
+### 5. Submit your PR
+
+- After your changes are committed to your GitHub fork, submit a pull request (PR) to the `main` branch of the `HursitTarcan/BreakBuddy` repo
+- In your PR description, reference the issue it resolves (see [linking a pull request to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword))
+  - ex. `Updates out of date content [Fixes #1234]`
+- _Confirm your preview deploy looks & functions as expected_
+
+### 6. Wait for review
+
+- The website team reviews every PR
+- Acceptable PRs will be approved & merged into the `main` branch
