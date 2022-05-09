@@ -15,10 +15,12 @@ This is the repo for the [breakbuddy](https://breakbuddy.be) website. BreakBuddy
 
 - [How to contribute as a developer](#how-to-contribute-as-a-developer) :computer:
 - [How to contribute as a translator](#how-to-contribute-as-a-translator) :pencil:
+- [How to contribute to content](#how-to-contribute-to-content) :bulb:
 
 ## How to contribute as a developer
 
 This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! :heart:
+
 This part of the readme.md is dedicated to code contributions 💻.
 
 ### 1. Submit an issue
@@ -95,15 +97,39 @@ $ git push origin
 ## How to contribute as a translator
 
 This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! :heart:
+
 This part of the readme.md is dedicated to translation contributions :pencil:.
 
 ### 1. Submit an issue
 
-- Create a [new issue](https://github.com/HUrsitTarcan/BreakBuddy/issues/new/choose).
+- Create a [new issue](https://github.com/HUrsitTarcan/BreakBuddy/issues/new/choose), specify the language that you would like to add.
+- Anyone can create a new issue (code contributions are not needed for this). 
 - Comment on the issue (if you'd like to be assigned to it) - that way our team can assign the issue to you.
+- You will be asked to upload a txt file with your translation, this can be done via Discord. 
 
-### 2. Fork the repository (repo)
+### 2. Wait for a review
 
-- If you're not sure how, here's how to [fork a repo](https://help.github.com/en/articles/fork-a-repo).
+- Our team will review your translation. 
+- Acceptable translations will be approved & merged into the main branch. 
 
-If this is your first time forking our repo, this is all you need to do for this step:
+
+
+
+## How to contribute to content
+
+This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind are welcome! :heart:
+
+This part of the readme.md is dedicated to content contributions 💡.
+
+### 1. Submit an issue
+
+- Create a [new issue](https://github.com/HUrsitTarcan/BreakBuddy/issues/new/choose).
+- Anyone can create a new issue (code contributions are not needed for this). 
+- Specify the new feature you would like to add, (design proposal, content change, add new destinations, etc...) 
+- Comment on the issue (if you'd like to be assigned to it) - that way our team can assign the issue to you.
+- Our team will contact you via the issue. 
+
+### 2. Wait for a review
+
+- Our team will review your content change. 
+- Acceptable content changes will be approved & merged into the main branch. 
