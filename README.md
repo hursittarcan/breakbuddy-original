@@ -9,9 +9,6 @@ This is the repo for the [breakbuddy.be](https://google.com) website. The purpos
 ## Table of contents
 
 - [How to contribute](#how-to-contribute)
-- [Translation Program](docs/translation-program.md)
-- [The ethereum.org website stack](docs/stack.md)
-- [Website conventions / best practices](docs/best-practices.md)
 
 ## How to contribute
 
